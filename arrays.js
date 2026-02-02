@@ -24,4 +24,9 @@ console.log("Opgave 2", catsArray)
 console.log("Opgave 3a", dogsArray.includes("Trixie"));
 console.log("Opgave 3b", dogsArray.includes("Baxter"));
 
+// -- opgave 4 --
 
+console.log("Opgave 4a", catsArray.includes("Bagheera") ? catsArray[catsArray.indexOf("Bagheera")] : undefined);
+console.log("Opgave 4b", catsArray.includes("Salem") ? catsArray[catsArray.indexOf("Salem")] : undefined);
+
+// -- opgave 5 --
