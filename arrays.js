@@ -8,9 +8,7 @@ let numbersArray = [12, 4, 45, 17, 2, 26, 7, 55, 48, 32, 21]
 // -- opgave 1 --
 
 let newNumbers = []
-numbersArray.forEach(num => {
-    if(num > 20) newNumbers.push(num)
-})
+numbersArray.forEach(num => { if(num > 20) newNumbers.push(num) })
 console.log("Opgave 1", newNumbers)
 
 // -- opgave 2 --
@@ -32,3 +30,11 @@ console.log("Opgave 4b", catsArray.includes("Salem") ? catsArray[catsArray.index
 // -- opgave 5 --
 
 console.log("Opgave 5", newNumbers = numbersArray.map(num => num * 3));
+
+// -- opgave 6 --
+
+console.log("Opgave 6", dogsArray.join(""));
+
+// -- opgave 7 --
+
+
