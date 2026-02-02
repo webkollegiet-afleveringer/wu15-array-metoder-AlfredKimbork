@@ -39,3 +39,7 @@ console.log("Opgave 6", dogsArray.join(""));
 
 console.log("Opgave 7a", fruitsArray.indexOf("Mango"));
 console.log("Opgave 7a", fruitsArray.indexOf("Blåbær"));
+
+// -- opgave 8 --
+
+console.log("Opgave 8", dogsArray.filter(name => name !== "Polly"))
