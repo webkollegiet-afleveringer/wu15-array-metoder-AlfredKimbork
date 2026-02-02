@@ -30,3 +30,5 @@ console.log("Opgave 4a", catsArray.includes("Bagheera") ? catsArray[catsArray.in
 console.log("Opgave 4b", catsArray.includes("Salem") ? catsArray[catsArray.indexOf("Salem")] : undefined);
 
 // -- opgave 5 --
+
+console.log("Opgave 5", newNumbers = numbersArray.map(num => num * 3));
