@@ -13,4 +13,10 @@ numbersArray.forEach(num => {
 })
 console.log("Opgave 1", newNumbers)
 
+// -- opgave 2 --
 
+catsArray.push("Sniffles")
+
+console.log("Opgave 2", catsArray)
+
+// -- opgave 3 --
