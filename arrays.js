@@ -20,3 +20,8 @@ catsArray.push("Sniffles")
 console.log("Opgave 2", catsArray)
 
 // -- opgave 3 --
+
+console.log("Opgave 3a", dogsArray.includes("Trixie"));
+console.log("Opgave 3b", dogsArray.includes("Baxter"));
+
+
